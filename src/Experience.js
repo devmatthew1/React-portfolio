@@ -1,11 +1,15 @@
 import React from 'react';
-import Company from './Company'
+import Company from './Company';
+import vdt from './images/vdt.png';
+import leadway from './images/leadway.png';
+import ifelodun from './images/ifelodun.jpg';
 const Experience =()=>{
     
   
 
         const cards = [
             { 
+              image:vdt,
               id:'dgdyj',
               jobTitle: 'Network Engineer Intern',
               companyName: 'VDT Communications Limited',
@@ -23,6 +27,7 @@ const Experience =()=>{
             },
 
             { 
+            image:leadway,
             id:'dgiu',
             jobTitle: 'Technical Support Intern',
             companyName: 'Leadway Pensure PFA',
@@ -43,6 +48,7 @@ const Experience =()=>{
             ]
           },
           { 
+            image:ifelodun,
             id:'doou',
             jobTitle: 'System administrator Intern',
             companyName: 'Ifelodun Skill Centre',
@@ -60,7 +66,7 @@ const Experience =()=>{
           ];
           
           return( cards.map((card) => {
-             return <Company key={card.id} jobTitle={card.jobTitle} companyName={card.companyName} responsibilities={card.responsibilities} toolsUsed={card.toolsUsed} location={card.location}  duration={card.duration} employmentType={card.employmentType} /> ;})
+             return <Company key={card.id} img={card.image} jobTitle={card.jobTitle} companyName={card.companyName} responsibilities={card.responsibilities} toolsUsed={card.toolsUsed} location={card.location}  duration={card.duration} employmentType={card.employmentType} /> ;})
           );
   
      

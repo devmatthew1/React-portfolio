@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css';
+import './styles.css';
 import NavItems from './Navigation';
 import Aux from './Lux';
 import Backdrop from './Backdrop';

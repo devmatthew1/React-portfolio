@@ -20512,47 +20512,58 @@ video {
   --transform-skew-y: 0;
   --transform-scale-x: 1;
   --transform-scale-y: 1;
-  transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+  -ms-transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+      transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
 }
 
 .transform-none {
-  transform: none;
+  -ms-transform: none;
+      transform: none;
 }
 
 .origin-center {
-  transform-origin: center;
+  -ms-transform-origin: center;
+      transform-origin: center;
 }
 
 .origin-top {
-  transform-origin: top;
+  -ms-transform-origin: top;
+      transform-origin: top;
 }
 
 .origin-top-right {
-  transform-origin: top right;
+  -ms-transform-origin: top right;
+      transform-origin: top right;
 }
 
 .origin-right {
-  transform-origin: right;
+  -ms-transform-origin: right;
+      transform-origin: right;
 }
 
 .origin-bottom-right {
-  transform-origin: bottom right;
+  -ms-transform-origin: bottom right;
+      transform-origin: bottom right;
 }
 
 .origin-bottom {
-  transform-origin: bottom;
+  -ms-transform-origin: bottom;
+      transform-origin: bottom;
 }
 
 .origin-bottom-left {
-  transform-origin: bottom left;
+  -ms-transform-origin: bottom left;
+      transform-origin: bottom left;
 }
 
 .origin-left {
-  transform-origin: left;
+  -ms-transform-origin: left;
+      transform-origin: left;
 }
 
 .origin-top-left {
-  transform-origin: top left;
+  -ms-transform-origin: top left;
+      transform-origin: top left;
 }
 
 .scale-0 {
@@ -42303,47 +42314,58 @@ video {
     --transform-skew-y: 0;
     --transform-scale-x: 1;
     --transform-scale-y: 1;
-    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+    -ms-transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+        transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
   }
 
   .sm\:transform-none {
-    transform: none;
+    -ms-transform: none;
+        transform: none;
   }
 
   .sm\:origin-center {
-    transform-origin: center;
+    -ms-transform-origin: center;
+        transform-origin: center;
   }
 
   .sm\:origin-top {
-    transform-origin: top;
+    -ms-transform-origin: top;
+        transform-origin: top;
   }
 
   .sm\:origin-top-right {
-    transform-origin: top right;
+    -ms-transform-origin: top right;
+        transform-origin: top right;
   }
 
   .sm\:origin-right {
-    transform-origin: right;
+    -ms-transform-origin: right;
+        transform-origin: right;
   }
 
   .sm\:origin-bottom-right {
-    transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+        transform-origin: bottom right;
   }
 
   .sm\:origin-bottom {
-    transform-origin: bottom;
+    -ms-transform-origin: bottom;
+        transform-origin: bottom;
   }
 
   .sm\:origin-bottom-left {
-    transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+        transform-origin: bottom left;
   }
 
   .sm\:origin-left {
-    transform-origin: left;
+    -ms-transform-origin: left;
+        transform-origin: left;
   }
 
   .sm\:origin-top-left {
-    transform-origin: top left;
+    -ms-transform-origin: top left;
+        transform-origin: top left;
   }
 
   .sm\:scale-0 {
@@ -64029,47 +64051,58 @@ video {
     --transform-skew-y: 0;
     --transform-scale-x: 1;
     --transform-scale-y: 1;
-    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+    -ms-transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+        transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
   }
 
   .md\:transform-none {
-    transform: none;
+    -ms-transform: none;
+        transform: none;
   }
 
   .md\:origin-center {
-    transform-origin: center;
+    -ms-transform-origin: center;
+        transform-origin: center;
   }
 
   .md\:origin-top {
-    transform-origin: top;
+    -ms-transform-origin: top;
+        transform-origin: top;
   }
 
   .md\:origin-top-right {
-    transform-origin: top right;
+    -ms-transform-origin: top right;
+        transform-origin: top right;
   }
 
   .md\:origin-right {
-    transform-origin: right;
+    -ms-transform-origin: right;
+        transform-origin: right;
   }
 
   .md\:origin-bottom-right {
-    transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+        transform-origin: bottom right;
   }
 
   .md\:origin-bottom {
-    transform-origin: bottom;
+    -ms-transform-origin: bottom;
+        transform-origin: bottom;
   }
 
   .md\:origin-bottom-left {
-    transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+        transform-origin: bottom left;
   }
 
   .md\:origin-left {
-    transform-origin: left;
+    -ms-transform-origin: left;
+        transform-origin: left;
   }
 
   .md\:origin-top-left {
-    transform-origin: top left;
+    -ms-transform-origin: top left;
+        transform-origin: top left;
   }
 
   .md\:scale-0 {
@@ -85755,47 +85788,58 @@ video {
     --transform-skew-y: 0;
     --transform-scale-x: 1;
     --transform-scale-y: 1;
-    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+    -ms-transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+        transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
   }
 
   .lg\:transform-none {
-    transform: none;
+    -ms-transform: none;
+        transform: none;
   }
 
   .lg\:origin-center {
-    transform-origin: center;
+    -ms-transform-origin: center;
+        transform-origin: center;
   }
 
   .lg\:origin-top {
-    transform-origin: top;
+    -ms-transform-origin: top;
+        transform-origin: top;
   }
 
   .lg\:origin-top-right {
-    transform-origin: top right;
+    -ms-transform-origin: top right;
+        transform-origin: top right;
   }
 
   .lg\:origin-right {
-    transform-origin: right;
+    -ms-transform-origin: right;
+        transform-origin: right;
   }
 
   .lg\:origin-bottom-right {
-    transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+        transform-origin: bottom right;
   }
 
   .lg\:origin-bottom {
-    transform-origin: bottom;
+    -ms-transform-origin: bottom;
+        transform-origin: bottom;
   }
 
   .lg\:origin-bottom-left {
-    transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+        transform-origin: bottom left;
   }
 
   .lg\:origin-left {
-    transform-origin: left;
+    -ms-transform-origin: left;
+        transform-origin: left;
   }
 
   .lg\:origin-top-left {
-    transform-origin: top left;
+    -ms-transform-origin: top left;
+        transform-origin: top left;
   }
 
   .lg\:scale-0 {
@@ -107481,47 +107525,58 @@ video {
     --transform-skew-y: 0;
     --transform-scale-x: 1;
     --transform-scale-y: 1;
-    transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+    -ms-transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+        transform: translateX(var(--transform-translate-x)) translateY(var(--transform-translate-y)) rotate(var(--transform-rotate)) skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y)) scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
   }
 
   .xl\:transform-none {
-    transform: none;
+    -ms-transform: none;
+        transform: none;
   }
 
   .xl\:origin-center {
-    transform-origin: center;
+    -ms-transform-origin: center;
+        transform-origin: center;
   }
 
   .xl\:origin-top {
-    transform-origin: top;
+    -ms-transform-origin: top;
+        transform-origin: top;
   }
 
   .xl\:origin-top-right {
-    transform-origin: top right;
+    -ms-transform-origin: top right;
+        transform-origin: top right;
   }
 
   .xl\:origin-right {
-    transform-origin: right;
+    -ms-transform-origin: right;
+        transform-origin: right;
   }
 
   .xl\:origin-bottom-right {
-    transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+        transform-origin: bottom right;
   }
 
   .xl\:origin-bottom {
-    transform-origin: bottom;
+    -ms-transform-origin: bottom;
+        transform-origin: bottom;
   }
 
   .xl\:origin-bottom-left {
-    transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+        transform-origin: bottom left;
   }
 
   .xl\:origin-left {
-    transform-origin: left;
+    -ms-transform-origin: left;
+        transform-origin: left;
   }
 
   .xl\:origin-top-left {
-    transform-origin: top left;
+    -ms-transform-origin: top left;
+        transform-origin: top left;
   }
 
   .xl\:scale-0 {

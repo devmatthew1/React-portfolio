@@ -1,12 +1,13 @@
 import React from 'react';
 import NavItem from './Navitem'
-import './Header.css';
+import './styles.css';
 const Navitems = ()=>{
     return(
         <div className="nav-items">
-            <NavItem link="/">Projects</NavItem>
-            <NavItem link="/">Resume</NavItem>
-            <NavItem link="/">Hire me</NavItem>
+            <NavItem link="/">About Me</NavItem>
+            <NavItem link="/projects">Projects</NavItem>
+            <NavItem link="/experience">Resume</NavItem>
+            <NavItem link="/">Blog</NavItem>
         </div>
     );
 

@@ -1,16 +1,16 @@
 import React from 'react';
-
+import rec1 from './images/rec1.svg';
 const Company =(props)=>{
 var resps = props.responsibilities;
 const listItems = resps.map((resp,index) =>
-  <li key={index}><i className="fa fa-dot-circle-o mr-1" aria-hidden="true"></i>{resp}</li>
+  <li key={index}><img src={rec1} style={{display:"inline-block",width:"16px", height:"16px",padding:"0px 5px 0px 0px"}} alt="verify" />{resp}</li>
   
 );
   
 return(
   
     <li className="media my-4" >
-        <img className="mr-3" src="images/vdt.png" alt="Generic" style={{maxHeight:"50px",maxWidth: "50px",width:"auto",height: "auto"}}/>
+        <img className="mr-3" src={props.img} alt="Generic" style={{maxHeight:"50px",maxWidth: "50px",width:"auto",height: "auto"}}/>
         <div className="media-body">
             <ul className="list-unstyled">
             <h4 className="mt-0 mb-1"><strong>{props.jobTitle}</strong> </h4>

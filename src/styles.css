@@ -1,0 +1,633 @@
+*{box-sizing: border-box;font-family: 'agency fb';}
+.Projects{display:flex;flex-wrap: wrap;}
+   
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    color: #a0aec0;
+    padding: 0px 30px;
+}
+
+.overlay{
+       
+    top: 0%;
+    z-index: 1;
+    background-color: white;
+        color: black;
+    position: fixed!important;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    transition: transform 2s ease-in-out;
+   
+}
+
+.overlay-inner{
+    height: 100vh!important;
+    align-items: center!important;
+    justify-content: center!important;
+    display: flex!important;
+    position: relative;
+    width: 100%;
+    
+}
+
+.Project-card{
+    width: 100%;
+    border: 1px solid #28a1b5;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    margin: 5px 5px;
+    box-shadow: 0 8px 6px -6px #28a1b5;
+    
+}
+
+.Project-card h1{
+    font-weight: bolder;
+    font-size:1.2rem;
+    padding:6px 0px ;
+}
+
+.Project-card p{
+    font-size:1rem;
+    padding:0px 0px 6px 0px;
+}
+
+.Circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+.overlay-row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+       
+}
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #858f9c;
+       
+}
+
+.profile-row {
+  width:100%;
+  position: relative;
+  height: 100%;
+  background-color:black;
+  color:#a0aec0;
+  padding: 15px;
+  
+}
+
+.more-projects svg{display: inline-block;}
+.more-projects {margin: 10px 0px;display: block;}
+
+.icons-middle{margin: 0px 10px;}
+.icons a{display: inline-block;}
+
+.profile{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+ .details h1{font-size:1.5rem;font-weight:bold;}
+ .details p{font-size:1.1rem;padding: 10px 0px;}
+
+.details{width:100%;padding:0px 10px 0px 10px;margin: 15px 0px;}
+
+.image-container img{width: 100%;height: 100%;}
+.image-container{
+    width:100%;
+    max-width: 500px;
+    
+    height:300px;
+    border: 5px solid #000000;
+    padding: 0px;
+    margin: 0px 10px;}
+
+.box-inner{
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+#list-item-2 h1{font-size:2.5rem;}
+.media-body h4{font-size: 1.5rem;} 
+.media-body h5{font-size: 1.25rem;}   
+.media-body h6 {
+    font-size: 1rem;
+}
+
+.Backdrop{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0,0,0.5);
+    display: block;
+}
+
+
+.nav-item :hover{
+    background-color: #28a1b5;
+    color: white;
+
+}
+
+.nav-item :focus{
+    background-color: #28a1b5;
+    color: white;
+    
+}
+
+.nav-items{
+    display: flex;
+    flex-flow: column;
+ 
+}
+
+.nav-item a{
+    display: block;
+    text-decoration: none;
+    padding: 15px 5px;
+}
+
+.logo{
+    
+    font-size: 2.25rem;
+    font-weight: 700;
+   
+}
+.toogle-icon{
+    font-size: 2.25rem;
+    display: block;
+    padding: 0px 0px;
+}
+
+.toogle-icon:hover{
+    cursor: pointer;
+}
+ 
+.Nav{display: none;}
+.Side-draw{
+    position: fixed;
+    width: 280px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: white;
+    padding: 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;
+}
+
+.works{font-size: 2rem;padding:10px 5px;}
+.Exp-ill{
+    max-width: 200px;
+    max-height: 200px;
+    margin:auto;
+    width: 100%;
+    height:100%;
+    
+}
+
+.tools span{padding: 2px;margin: 2px;color:#000000;background-color: #28a1b5;border-radius: 3px;}
+.mark{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color:#28a1b5;
+    color:#000000;
+    padding: 5px;
+    font-weight: bold;
+}
+
+@media (min-width: 850px){
+  
+    *{box-sizing: border-box;font-family: 'agency fb';}
+    .logo{
+        line-height: normal;
+        font-size: 2.25rem;
+        font-weight: 700;
+       
+    }
+    .nav-item :hover{
+        background-color: #28a1b5;
+        color: white;
+    
+    }
+
+    .nav-item :focus{
+        background-color: #28a1b5;
+        color: white;
+        
+    }
+    .Side-draw{
+       display: none;
+    }
+    .nav-items{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row;
+    }
+    .Nav{
+        display: block;
+        
+        font-size: 1rem;
+        font-weight:bold;
+    }
+    .toogle-icon{display:none;}
+    .Backdrop{display:none;}
+
+    .Project-card{
+        flex: 0 0 48.7%;
+        max-width: 48.7%;
+        border: 1px solid #28a1b5;
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+        padding: 30px;
+        margin: 5px 5px;   
+        box-shadow: 0 8px 6px -6px #28a1b5;
+    }
+   
+    .Projects{display:flex;flex-wrap: wrap;}
+    .projectsCon{padding:0px 30px;}
+    .works{font-size: 2rem;padding:20px 5px;}
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .overlay-row{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+           
+    }
+
+    .box-inner{
+        position: relative;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .list-unstyled {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .media {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+
+    .overlay{
+       
+        top: 0%;
+        z-index: 1;
+        background-color: white;
+        color: black;
+        position: fixed!important;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        transition: transform 2s ease-in-out;
+       
+    }
+
+    .overlay-inner{
+        height: 100vh!important;
+        align-items: center!important;
+        justify-content: center!important;
+        display: flex!important;
+        position: relative;
+        width: 100%;
+        
+    }
+
+
+    .profile-row {
+        width:100%;
+        background-color:black;
+        color:#a0aec0;
+        padding: 15px;
+        height: calc(100vh - 54px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    .icons {
+        position: absolute;
+        bottom: 0;
+        left: auto;
+       
+      }
+
+    .more-projects svg{display: inline-block;}
+    .more-projects {margin: 10px 0px;display: block;}
+    .icons a{display: inline-block;}
+    .icons-middle{margin: 0px 10px;}
+    .profile{
+        display: -ms-flexbox;   
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:100%;
+    }
+    .Project-card h1{
+        font-weight: bolder;
+        font-size:1.2rem;
+        padding:6px 0px ;
+    }
+
+    .Exp-ill{
+        max-width: 200px;
+        max-height: 200px;
+        margin:auto;
+        width: 100%;
+        height:100%;
+        
+    }
+
+    .image-exp{
+       width: 100%;
+       
+    }
+    
+    .details h1{font-size:2rem;font-weight:bold;}
+    .details p{font-size:1.2rem;padding: 10px 0px;}
+    .details{width:60%;padding:0px 10px 0px 10px;margin: auto;}
+    .image-container img{width: 100%;height: 100%;}
+    .image-container{
+        width:40%;
+        height:60vh;
+        max-height:500px;
+        border: 5px solid #000000;
+        padding: 0px;margin: 0px 0px;
+    }
+    .tools span{padding: 2px;margin: 2px;color:#000000;background-color: #858f9c;border-radius: 3px;}
+    .mark{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        background-color:#28a1b5;
+        color:#000000;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+}
+
+
+
+@media (min-width: 1044px){  
+    *{box-sizing: border-box;font-family: 'agency fb';}
+    .logo{
+        line-height: normal;
+        font-size: 2.25rem;
+        font-weight: 700;
+       
+    }
+    .nav-item :hover{
+        background-color: #28a1b5;
+        color: white;
+    
+    }
+
+    .nav-item :focus{
+        background-color: #28a1b5;
+        color: white;
+        
+    }
+    .Side-draw{
+       display: none;
+    }
+    .nav-items{
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row;
+    }
+    .Nav{
+        display: block;
+        
+        font-size: 1rem;
+        font-weight:bold;
+    }
+    .toogle-icon{display:none;}
+    .Backdrop{display:none;}
+    .Project-card{
+        max-width: 32.3%;
+        flex: 0 0 32.3%;
+        border: 1px solid #28a1b5;
+        border-radius: 30px;
+        background-color: black;
+        color: white;
+        padding: 30px;
+        margin: 5px 5px;   
+        box-shadow: 0 8px 6px -6px #28a1b5;
+    }
+    .Projects{display:flex;flex-wrap: wrap;}
+    .projectsCon{padding:0px 30px;}
+    .works{font-size: 2rem;padding:20px 5px;}
+    .row {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .overlay-row{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+           
+    }
+
+    .box-inner{
+        position: relative;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .list-unstyled {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .media {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+
+    .overlay{
+       
+        top: 0%;
+        z-index: 1;
+        background-color: white;
+        color: black;
+        position: fixed!important;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        transition: transform 2s ease-in-out;
+       
+    }
+
+    .overlay-inner{
+        height: 100vh!important;
+        align-items: center!important;
+        justify-content: center!important;
+        display: flex!important;
+        position: relative;
+        width: 100%;
+        
+    }
+
+
+    .profile-row {
+        width:100%;
+        background-color:black;
+        color:#a0aec0;
+        padding: 15px;
+        height: calc(100vh - 54px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    
+    .icons {
+        position: absolute;
+        bottom: 0;
+        left: auto;
+       
+      }
+
+    .more-projects svg{display: inline-block;}
+    .more-projects {margin: 10px 0px;display: block;}
+    .icons a{display: inline-block;}
+    .icons-middle{margin: 0px 10px;}
+    .profile{
+        display: -ms-flexbox;   
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        justify-content: center;
+        width:100%;
+    }
+    .Project-card h1{
+        font-weight: bolder;
+        font-size:1.2rem;
+        padding:6px 0px ;
+    }
+
+    .Exp-ill{
+        max-width: 200px;
+        max-height: 200px;
+        margin:auto;
+        width: 100%;
+        height:100%;
+        
+    }
+
+    .image-exp{
+       width: 100%;
+       
+    }
+    
+    .details h1{font-size:2rem;font-weight:bold;}
+    .details p{font-size:1.2rem;padding: 10px 0px;}
+    .details{width:60%;padding:0px 10px 0px 10px;margin: auto;}
+    .image-container img{width: 100%;height: 100%;}
+    .image-container{
+        width:40%;
+        height:60vh;
+        max-height:500px;
+        border: 5px solid #000000;
+        padding: 0px;margin: 0px 0px;
+    }
+    .tools span{padding: 2px;margin: 2px;color:#000000;background-color: #858f9c;border-radius: 3px;}
+    .mark{
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        background-color:#28a1b5;
+        color:#000000;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+}
+
+
+
+
+
+ 
+  
+ 
+ 
+  
+ 
+ 
+  
