@@ -6,8 +6,10 @@
     justify-content: space-between;
     background-color:black;
     color: #a0aec0;
-    padding: 0px 30px;
+    padding: 0px 15px;
 }
+
+.projectsCon{padding: 0px 15px;}
 
 .overlay{
        
@@ -42,7 +44,7 @@
     background-color: black;
     color: white;
     padding: 30px;
-    margin: 5px 5px;
+    margin: 5px 0px;
     box-shadow: 0 8px 6px -6px #28a1b5;
     
 }
@@ -92,7 +94,7 @@
   height: 100%;
   background-color:black;
   color:#a0aec0;
-  padding: 15px;
+  padding: 15px 15px 30px 15px;
   
 }
 
@@ -135,6 +137,7 @@
 .list-unstyled {
     padding-left: 0;
     list-style: none;
+    margin-bottom: 17px;
 }
 
 .media {
@@ -224,7 +227,11 @@
     height:100%;
     
 }
-
+.tools{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
 .tools span{padding: 2px;margin: 2px;color:#000000;background-color: #28a1b5;border-radius: 3px;}
 .mark{
     position: fixed;
@@ -316,6 +323,7 @@
     .list-unstyled {
         padding-left: 0;
         list-style: none;
+        margin-bottom: 17px;
     }
 
     .media {
@@ -415,6 +423,13 @@
         border: 5px solid #000000;
         padding: 0px;margin: 0px 0px;
     }
+
+    .tools{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        
     .tools span{padding: 2px;margin: 2px;color:#000000;background-color: #858f9c;border-radius: 3px;}
     .mark{
         position: fixed;
@@ -507,6 +522,7 @@
     .list-unstyled {
         padding-left: 0;
         list-style: none;
+        margin-bottom: 17px;
     }
 
     .media {
@@ -606,6 +622,12 @@
         border: 5px solid #000000;
         padding: 0px;margin: 0px 0px;
     }
+    .tools{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
     .tools span{padding: 2px;margin: 2px;color:#000000;background-color: #858f9c;border-radius: 3px;}
     .mark{
         position: fixed;

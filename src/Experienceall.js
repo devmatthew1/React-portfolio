@@ -9,7 +9,7 @@ return(
     <div className="row">
         <div className="box-inner pt-4 ">
             <div className="image-exp">
-                <a style={{color:"#28a1b5",fontWeight:"bolder"}}>DOWNLOAD RESUME <img src={download} alt="engineer" style={{display: "inline-block",width:"25px", height:"25px" }} /></a>
+                <a style={{color:"#28a1b5",fontWeight:"bolder",marginBottom:"15px",display:"block"}}>DOWNLOAD RESUME <img src={download} alt="engineer" style={{display: "inline-block",width:"25px", height:"25px" }} /></a>
                 <img src={tech} alt="illustr" className="Exp-ill"/>
             </div>
             <ul className="list-unstyled">    
