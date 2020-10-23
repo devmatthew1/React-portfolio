@@ -1,8 +1,8 @@
 {
-  "main.css": "static/css/main.33d06c52.css",
-  "main.css.map": "static/css/main.33d06c52.css.map",
-  "main.js": "static/js/main.80a0de9b.js",
-  "main.js.map": "static/js/main.80a0de9b.js.map",
+  "main.css": "static/css/main.3ced12a4.css",
+  "main.css.map": "static/css/main.3ced12a4.css.map",
+  "main.js": "static/js/main.5b00db8f.js",
+  "main.js.map": "static/js/main.5b00db8f.js.map",
   "static\\media\\clapping.svg": "static/media/clapping.a486587a.svg",
   "static\\media\\click.svg": "static/media/click.69277353.svg",
   "static\\media\\correct.png": "static/media/correct.e12c26fb.png",
@@ -10,6 +10,7 @@
   "static\\media\\download.svg": "static/media/download.2d01e4c2.svg",
   "static\\media\\githubsvg.svg": "static/media/githubsvg.f8455da8.svg",
   "static\\media\\list.svg": "static/media/list.83260bd3.svg",
+  "static\\media\\mail.svg": "static/media/mail.8b4bcb5b.svg",
   "static\\media\\rec1.svg": "static/media/rec1.6b9e80b9.svg",
   "static\\media\\surelay2.jpeg": "static/media/surelay2.217dbe44.jpeg"
 }

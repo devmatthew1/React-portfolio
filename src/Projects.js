@@ -40,6 +40,15 @@ class Projects extends Component{
               tools: 'Javascript,Google Geolocation Api, Open Weather Api',
               softwaredetails:"This application provides the weather condition of a user's location using Js geolocation api and openweather api"
   
+            },
+            { 
+              id:'ajke',
+              title: 'Memory Game',
+              link: 'https://surelay.github.io/memory_game/',
+              github: 'https://github.com/surelay/memory_game', 
+              tools: 'Javascript',
+              softwaredetails:"The memory game was built to derive fun from testing the ability of an individual to remember"
+  
             }
           ];
   
