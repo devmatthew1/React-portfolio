@@ -49,6 +49,15 @@ class Projects extends Component{
               tools: 'Javascript',
               softwaredetails:"The memory game was built to derive fun from testing the ability of an individual to remember"
   
+            },
+            { 
+              id:'ajoe',
+              title: 'Portfolio Design',
+              link: 'https://portfolio-b0fe3.web.app/',
+              github: 'https://github.com/surelay/React-portfolio', 
+              tools: 'React and firebase',
+              softwaredetails:"This portfolio contain some of my works and experience as a developer"
+  
             }
           ];
   
