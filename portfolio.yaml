@@ -1,4 +1,4 @@
-# Ansible playbook AWS - install docker (2021)
+# Ansible playbook AWS - install docker on linux (2021)
 ---
 - name: "AWS - Install docker"
   hosts: web
