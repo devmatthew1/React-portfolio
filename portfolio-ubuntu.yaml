@@ -3,6 +3,7 @@
 - name: "AWS - Install docker"
   hosts: web
   become: yes
+  become_method: sudo
 
   tasks:
     - name: Install aptitude using apt
@@ -45,9 +46,20 @@
     - name: Check if container is running
       shell: docker ps
 
+   # - name: run docker image
+    # docker run -dit --name repo-name -p 3000:3000 repo-user-name/repo-name:tag
+    #  shell: docker run -dit --name snd-portfolio -p 3000:3000 surelay/snd-portfolio:latest
+
+    - name: Sleep for 60 seconds and timeout
+      tags: sleep60
+      wait_for:
+        delay: 60
+        timeout: 0
+
     - name: run docker image
     # docker run -dit --name repo-name -p 3000:3000 repo-user-name/repo-name:tag
       shell: docker run -dit --name snd-portfolio -p 3000:3000 surelay/snd-portfolio:latest
-
+    # shell: docker run -t -i -p 3000:3000 surelay/snd-portfolio:latest 
+      
     - name: show running images
       shell: docker images
