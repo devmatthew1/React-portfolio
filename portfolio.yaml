@@ -3,6 +3,7 @@
 - name: "AWS - Install docker"
   hosts: web
   become: yes
+  become_method: sudo
   tasks:
     - name: Update all packages
       yum:

@@ -2,12 +2,32 @@ import React from 'react';
 import Company from './Company';
 import vdt from './images/vdt.png';
 import leadway from './images/leadway.png';
-import ifelodun from './images/ifelodun.jpg';
+import cch from './images/cch.png';
 const Experience =()=>{
     
   
 
         const cards = [
+            { 
+              image:cch,
+              id:'doou',
+              jobTitle: 'Technical support(DevOps)',
+              companyName: 'AWS Community Bootcamp by GrissTech',
+              employmentType: 'Full-time', 
+              duration: 'Apr 2021 – Sept 2021 . 6 mos',
+              location:'Lagos, Nigeria',
+              toolsUsed:'AWS, CloudFormation, Terraform, Docker , Bash scripting, Linux',
+              responsibilities:
+              [
+                'Built React Js and PHP CodeIgniter crud application which is then deployed to a AWS EC2 instance',
+                'Designed and deployed monolithic and 3-tier application architecture which includes EC2 instances in ASG, S3 and ALB',
+                'Setup of CICD pipelines with AWS Code CodeBuild, AWS CodeDeploy and Jenkins actions for development, testing, and production environment, and assessing the impact of issues',
+                'Used CloudFormation and Terraform to provision infrastructure on AWS with zero-downtime deployment',
+                'Configured proactive monitoring and alerting on AWS cloud using CloudWatch for cost optimization',
+                'Deployed different containerized React and PHP applications using Docker, Docker hub, and Jenkins for CICD pipeline. Also used ansible for configuration management for most projects'
+              ]
+            },
+
             { 
               image:vdt,
               id:'dgdyj',
@@ -19,6 +39,11 @@ const Experience =()=>{
               toolsUsed:'Vpn, Radio mobile,Google Earth Pro,Winbox, Routers and Microwave radio',
               responsibilities:
               [
+                'Installation and support of both 3rd party and in-house software',
+                'System Troubleshooting and Maintenance',
+                'Installing and configuring computer hardware including peripherals',
+                'Documentation and submission of weekly reports on incidents',
+                'Crimping of network cables, IP sub-netting and Vlan configuration',
                 'Configuration of microwave radios, routers and switch for internet communication',
                 'Performed site surveys which are documented using google earth pro and radio mobile',
                 'performed failure tests and carried out maintenance pop network infrastructures',
@@ -29,7 +54,7 @@ const Experience =()=>{
             { 
             image:leadway,
             id:'dgiu',
-            jobTitle: 'Technical Support Intern',
+            jobTitle: 'Technical Support & Network Engineer',
             companyName: 'Leadway Pensure PFA',
             employmentType: 'Full-time', 
             duration: 'Dec 2015 – Nov 2016 . 1 Yr',
@@ -37,32 +62,17 @@ const Experience =()=>{
             toolsUsed:'Javascript, Vmware, SysAid, Windows server, Web(Javascript,php and Sql),Routers and switches',
             responsibilities:
             [
-              'Performed system maintenance troubleshot computing and technological issues for over 100 staffs (locally and remotely)',
-              'Collaborated with the IT Help Desk team to improve incident management',
-              'Collaborated with the network Administrator and the infrastructure administrator for data centre relocation',
-              'Switch and router configuration',
-              'Provision of application support on intranet-based software',
-              'Setup of office email manually on the phone of staffs(either POP, IMAP or exchange)',
-              'Created an Html mail platform for incident management',
-              'Updated the intranet WebPages using javascript' 
-            ]
-          },
-          { 
-            image:ifelodun,
-            id:'doou',
-            jobTitle: 'System administrator Intern',
-            companyName: 'Ifelodun Skill Centre',
-            employmentType: 'Full-time', 
-            duration: 'May 2013 – Jul 2013 . 3 mos',
-            location:'Lagos, Nigeria',
-            toolsUsed:'Packet tracer, Windows server, Routers and switches',
-            responsibilities:
-            [
-              'Responsible for the maintenance, configuration, and reliable operation of computer systems, network servers',
-              'Installed and upgraded computer components and software, manage servers, and integrated automation processes',
-              'Troubleshoot hardware and software errors by running diagnostics, documenting problems and resolutions, prioritizing problems, and assessing the impact of issues' 
+              'Configuration and installation of routers and switches',
+              'Worked with the IT Help Desk team to improve incident management',
+              '	Assisted the network Administrator and the infrastructure administrator during data center relocation',
+              'Worked remotely using Team Viewer to resolve network and application issues for branch staffs',
+              'Created and maintained responsive mailing templates for incident management used by over 100 staffs',
+              '	Updated the company’s intranet page and official website using jQuery',
+              '	Performed weekend backup for disaster recovery',
+              '	Worked on the front-end of the companies’ online clock-in attendance system using JavaScript connecting to the PHP backend'
             ]
           }
+
           ];
           
           return( cards.map((card) => {

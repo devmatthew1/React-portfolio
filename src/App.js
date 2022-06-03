@@ -44,7 +44,7 @@ import About from './About';
               <Route path="/experience" component={Experiencex}/>
                
               <Sidedraw show={this.state.toogled} close={this.backdropClicked}/>
-              <div className="mark"><p>© 2020 Fadare Shola - All rights reserved</p></div>
+              <div className="mark"><p>© 2022 Fadare Shola - All rights reserved</p></div>
             </div>
         </Aux>
         

@@ -1,6 +1,13 @@
 *{box-sizing: border-box;font-family: 'agency fb';}
-.Projects{display:flex;flex-wrap: wrap;}
-   
+
+.Projects{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -292,7 +299,11 @@
         box-shadow: 0 8px 6px -6px #28a1b5;
     }
    
-    .Projects{display:flex;flex-wrap: wrap;}
+    .Projects{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     .projectsCon{padding:0px 30px;}
     .works{font-size: 2rem;padding:20px 5px;}
     .row {
@@ -491,7 +502,11 @@
         margin: 5px 5px;   
         box-shadow: 0 8px 6px -6px #28a1b5;
     }
-    .Projects{display:flex;flex-wrap: wrap;}
+    .Projects{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     .projectsCon{padding:0px 30px;}
     .works{font-size: 2rem;padding:20px 5px;}
     .row {
@@ -640,7 +655,6 @@
     }
 
 }
-
 
 
 

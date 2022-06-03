@@ -59,7 +59,11 @@
     - name: run docker image
     # docker run -dit --name repo-name -p 3000:3000 repo-user-name/repo-name:tag
       shell: docker run -dit --name snd-portfolio -p 3000:3000 surelay/snd-portfolio:latest
-    # shell: docker run -t -i -p 3000:3000 surelay/snd-portfolio:latest 
+    #  shell: docker run -t -i -p 3000:3000 surelay/snd-portfolio
+      register: docker_output
+
+    - debug:
+        var: docker_output.stdout_lines
       
     - name: show running images
       shell: docker images

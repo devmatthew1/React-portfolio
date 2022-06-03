@@ -13,7 +13,7 @@ import React, { Component } from 'react';
             <div className="overlay-inner">
               <div style={{ textAlign: "center"}}>
                 <h3 style={{ fontSize: "100px"}}>Surelay</h3> 
-                <p style={{ fontSize: "2vh"}}>Give me time and i'll give magic</p>
+                <p style={{ fontSize: "2vh"}}>Creating magic</p>
               </div>
             </div>
           </div>
